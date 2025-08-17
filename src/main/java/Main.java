@@ -22,7 +22,7 @@ public class Main {
        clientSocket.getOutPutStream().write(new byte[] {00, 00, 00, 00, 00, 00, 00, 07});
      } catch (IOException e) {
        System.out.println("IOException: " + e.getMessage());
-     } finally {s
+     } finally {
        try {
          if (clientSocket != null) {
            clientSocket.close();
